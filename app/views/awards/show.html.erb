@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @award.title %>
+</p>
+
+<p>
+  <strong>Departure:</strong>
+  <%= @award.departure %>
+</p>
+
+<p>
+  <strong>Arrival:</strong>
+  <%= @award.arrival %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @award.level %>
+</p>
+
+<p>
+  <strong>Miles:</strong>
+  <%= @award.miles %>
+</p>
+
+<%= link_to 'Edit', edit_award_path(@award) %> |
+<%= link_to 'Back', awards_path %>

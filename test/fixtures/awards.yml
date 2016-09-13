@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  departure: MyString
+  arrival: MyString
+  level: MyString
+  miles: MyString
+
+two:
+  title: MyString
+  departure: MyString
+  arrival: MyString
+  level: MyString
+  miles: MyString
